@@ -1,0 +1,321 @@
+{
+  "script": {
+    "$mulmocast": {
+      "version": "1.0",
+      "credit": "closing"
+    },
+    "canvasSize": {
+      "width": 1536,
+      "height": 1024
+    },
+    "speechParams": {
+      "provider": "openai",
+      "speakers": {
+        "Presenter": {
+          "displayName": {
+            "en": "Presenter"
+          },
+          "voiceId": "shimmer"
+        }
+      }
+    },
+    "imageParams": {
+      "style": "<style>A multi panel comic strip. Ghibli style. The presenter is a 30-year-old man with dark short hair and glasses.</style>",
+      "provider": "openai"
+    },
+    "audioParams": {
+      "padding": 0.3,
+      "introPadding": 1,
+      "closingPadding": 0.8,
+      "outroPadding": 1
+    },
+    "title": "Tascale：時間を取り戻す魔法のツール",
+    "references": [],
+    "lang": "ja",
+    "beats": [
+      {
+        "speaker": "Presenter",
+        "text": "僕はフリーランスのディレクター。Webサイト制作や広告運用の管理をしています。"
+      },
+      {
+        "speaker": "Presenter",
+        "text": "ありがたいことにとても忙しく、たくさんのプロジェクトを同時に進行しています。"
+      },
+      {
+        "speaker": "Presenter",
+        "text": "問題は、僕が様々な人とのハブ&スポークの中心にいること。"
+      },
+      {
+        "speaker": "Presenter",
+        "text": "上流にはクライアントや代理店、下流にはデザイナーやエンジニアがいます。"
+      },
+      {
+        "speaker": "Presenter",
+        "text": "コミュニケーションツールがバラバラ。Slack、チャットワーク、LINE、メール..."
+      },
+      {
+        "speaker": "Presenter",
+        "text": "様々なツールから連絡が飛んできて、僕のタスクがどんどん増えていきます。"
+      },
+      {
+        "speaker": "Presenter",
+        "text": "さらに大変なのは、プロジェクト管理。自分のタスクも他人のタスクも管理が必要。"
+      },
+      {
+        "speaker": "Presenter",
+        "text": "上流から降りてくるタスク、自分で作るタスク、メンバーにお願いするタスク。"
+      },
+      {
+        "speaker": "Presenter",
+        "text": "すべてを俯瞰して見られるツールが欲しい！でも既存ツールは課題が多い。"
+      },
+      {
+        "speaker": "Presenter",
+        "text": "Googleカレンダーはプロジェクト管理には不向き。ガントチャートが理想。"
+      },
+      {
+        "speaker": "Presenter",
+        "text": "AsanaやBacklogは複雑すぎる。クライアントとの共有も面倒。"
+      },
+      {
+        "speaker": "Presenter",
+        "text": "もっとシンプルで簡単に共有できるツールが必要なんです。"
+      },
+      {
+        "speaker": "Presenter",
+        "text": "AIアシスト機能も欲しい。スケジュールの破綻を防いでくれるような。"
+      },
+      {
+        "speaker": "Presenter",
+        "text": "それが「Tascale」。理想のスケジュール&プロジェクト管理アシスタント。"
+      },
+      {
+        "speaker": "Presenter",
+        "text": "これでGoogleカレンダーに仕事予定を入れなくて済みます。"
+      },
+      {
+        "speaker": "Presenter",
+        "text": "クライアントやパートナーとのスケジュール共有も簡単に。"
+      },
+      {
+        "speaker": "Presenter",
+        "text": "本当にやるべきことに集中できて、仕事がもっと楽しくなる。"
+      },
+      {
+        "speaker": "Presenter",
+        "text": "そんな日が、もうそこまで来ています。"
+      },
+      {
+        "speaker": "Presenter",
+        "text": "",
+        "image": {
+          "type": "image",
+          "source": {
+            "kind": "url",
+            "url": "https://github.com/receptron/mulmocast-cli/raw/refs/heads/main/assets/images/mulmocast_credit.png"
+          }
+        },
+        "audio": {
+          "type": "audio",
+          "source": {
+            "kind": "url",
+            "url": "https://github.com/receptron/mulmocast-cli/raw/refs/heads/main/assets/audio/silent300.mp3"
+          }
+        }
+      }
+    ]
+  },
+  "filename": "mulmo_script_male-director_simple",
+  "beats": [
+    {
+      "audioFile": "/Users/kamoshida/work/ss/github/3rd-Singularity-Society-BootCamp/tascale/mulmo/output/audio/mulmo_script_male-director_simple/mulmo_script_male-director_simple_0_36583411af6317608a74a95eee8bf36d3485839e0435fdff4a56bb9bbce1cea5.mp3",
+      "duration": 6.516,
+      "onComplete": {},
+      "imageFile": "/Users/kamoshida/work/ss/github/3rd-Singularity-Society-BootCamp/tascale/mulmo/output/images/mulmo_script_male-director_simple/0p.png"
+    },
+    {
+      "audioFile": "/Users/kamoshida/work/ss/github/3rd-Singularity-Society-BootCamp/tascale/mulmo/output/audio/mulmo_script_male-director_simple/mulmo_script_male-director_simple_1_c5633a28c240667e9f74b7fb5ae3de4dad79039e2ed846d90d0e6aeafb764699.mp3",
+      "duration": 5.412,
+      "onComplete": {},
+      "imageFile": "/Users/kamoshida/work/ss/github/3rd-Singularity-Society-BootCamp/tascale/mulmo/output/images/mulmo_script_male-director_simple/1p.png"
+    },
+    {
+      "audioFile": "/Users/kamoshida/work/ss/github/3rd-Singularity-Society-BootCamp/tascale/mulmo/output/audio/mulmo_script_male-director_simple/mulmo_script_male-director_simple_2_9bb1ed9c6582d7f9365c6456db8e300808dccd27f88dd2ba2109ef33a5b6f497.mp3",
+      "duration": 5.1,
+      "onComplete": {},
+      "imageFile": "/Users/kamoshida/work/ss/github/3rd-Singularity-Society-BootCamp/tascale/mulmo/output/images/mulmo_script_male-director_simple/2p.png"
+    },
+    {
+      "audioFile": "/Users/kamoshida/work/ss/github/3rd-Singularity-Society-BootCamp/tascale/mulmo/output/audio/mulmo_script_male-director_simple/mulmo_script_male-director_simple_3_8749f9c4412c61d3e2afe1605a52ae4d0e24c8c252529bd8616b0f0b3414d78e.mp3",
+      "duration": 5.7,
+      "onComplete": {},
+      "imageFile": "/Users/kamoshida/work/ss/github/3rd-Singularity-Society-BootCamp/tascale/mulmo/output/images/mulmo_script_male-director_simple/3p.png"
+    },
+    {
+      "audioFile": "/Users/kamoshida/work/ss/github/3rd-Singularity-Society-BootCamp/tascale/mulmo/output/audio/mulmo_script_male-director_simple/mulmo_script_male-director_simple_4_308b38bc708b1bd4292b0712d0510c91a4c1eea9bf6a3c2eeb04f41423b00f61.mp3",
+      "duration": 6.156,
+      "onComplete": {},
+      "imageFile": "/Users/kamoshida/work/ss/github/3rd-Singularity-Society-BootCamp/tascale/mulmo/output/images/mulmo_script_male-director_simple/4p.png"
+    },
+    {
+      "audioFile": "/Users/kamoshida/work/ss/github/3rd-Singularity-Society-BootCamp/tascale/mulmo/output/audio/mulmo_script_male-director_simple/mulmo_script_male-director_simple_5_8603b6eaa94eb89eb71ce3e139adf52eb455e1bc2d3fa8aba837a379094c506c.mp3",
+      "duration": 5.9639999999999995,
+      "onComplete": {},
+      "imageFile": "/Users/kamoshida/work/ss/github/3rd-Singularity-Society-BootCamp/tascale/mulmo/output/images/mulmo_script_male-director_simple/5p.png"
+    },
+    {
+      "audioFile": "/Users/kamoshida/work/ss/github/3rd-Singularity-Society-BootCamp/tascale/mulmo/output/audio/mulmo_script_male-director_simple/mulmo_script_male-director_simple_6_513afc58853296e5eedf5cbefc31e95f9f00520308fae1b370e20f98f5163ad4.mp3",
+      "duration": 6.516,
+      "onComplete": {},
+      "imageFile": "/Users/kamoshida/work/ss/github/3rd-Singularity-Society-BootCamp/tascale/mulmo/output/images/mulmo_script_male-director_simple/6p.png"
+    },
+    {
+      "audioFile": "/Users/kamoshida/work/ss/github/3rd-Singularity-Society-BootCamp/tascale/mulmo/output/audio/mulmo_script_male-director_simple/mulmo_script_male-director_simple_7_ca5e4d7b8d0451e120ad001e5e4ece3db5c588088911e3833b41d0e6bbb3ea24.mp3",
+      "duration": 6.468,
+      "onComplete": {},
+      "imageFile": "/Users/kamoshida/work/ss/github/3rd-Singularity-Society-BootCamp/tascale/mulmo/output/images/mulmo_script_male-director_simple/7p.png"
+    },
+    {
+      "audioFile": "/Users/kamoshida/work/ss/github/3rd-Singularity-Society-BootCamp/tascale/mulmo/output/audio/mulmo_script_male-director_simple/mulmo_script_male-director_simple_8_338c24cd76577956145114cfb870ef52610405add9d056649fe97ec3c2b93d04.mp3",
+      "duration": 5.9639999999999995,
+      "onComplete": {},
+      "imageFile": "/Users/kamoshida/work/ss/github/3rd-Singularity-Society-BootCamp/tascale/mulmo/output/images/mulmo_script_male-director_simple/8p.png"
+    },
+    {
+      "audioFile": "/Users/kamoshida/work/ss/github/3rd-Singularity-Society-BootCamp/tascale/mulmo/output/audio/mulmo_script_male-director_simple/mulmo_script_male-director_simple_9_9b22f932c7162363b725bf4c9c412a7bc6c4823c712eace05b88b92e65121848.mp3",
+      "duration": 6.108,
+      "onComplete": {},
+      "imageFile": "/Users/kamoshida/work/ss/github/3rd-Singularity-Society-BootCamp/tascale/mulmo/output/images/mulmo_script_male-director_simple/9p.png"
+    },
+    {
+      "audioFile": "/Users/kamoshida/work/ss/github/3rd-Singularity-Society-BootCamp/tascale/mulmo/output/audio/mulmo_script_male-director_simple/mulmo_script_male-director_simple_10_802725b8d53c5f9da85bff4b70a17a0106e8828d8d0ca806fc7fcd361bdb8e91.mp3",
+      "duration": 5.268,
+      "onComplete": {},
+      "imageFile": "/Users/kamoshida/work/ss/github/3rd-Singularity-Society-BootCamp/tascale/mulmo/output/images/mulmo_script_male-director_simple/10p.png"
+    },
+    {
+      "audioFile": "/Users/kamoshida/work/ss/github/3rd-Singularity-Society-BootCamp/tascale/mulmo/output/audio/mulmo_script_male-director_simple/mulmo_script_male-director_simple_11_2c6a084028c7b7812245dbda3daeaa03b8e127e8172db1847992434c85803fa2.mp3",
+      "duration": 4.308,
+      "onComplete": {},
+      "imageFile": "/Users/kamoshida/work/ss/github/3rd-Singularity-Society-BootCamp/tascale/mulmo/output/images/mulmo_script_male-director_simple/11p.png"
+    },
+    {
+      "audioFile": "/Users/kamoshida/work/ss/github/3rd-Singularity-Society-BootCamp/tascale/mulmo/output/audio/mulmo_script_male-director_simple/mulmo_script_male-director_simple_12_b09a1ac6cde83d1db2b58cf1f7d8bb7765c64255d85f734c5ae8a300ddb84e75.mp3",
+      "duration": 5.052,
+      "onComplete": {},
+      "imageFile": "/Users/kamoshida/work/ss/github/3rd-Singularity-Society-BootCamp/tascale/mulmo/output/images/mulmo_script_male-director_simple/12p.png"
+    },
+    {
+      "audioFile": "/Users/kamoshida/work/ss/github/3rd-Singularity-Society-BootCamp/tascale/mulmo/output/audio/mulmo_script_male-director_simple/mulmo_script_male-director_simple_13_200689720a8c503c85f9f2b08bec3810e4ae9022feedf6845e9a91bc7e8a35cf.mp3",
+      "duration": 6.012,
+      "onComplete": {},
+      "imageFile": "/Users/kamoshida/work/ss/github/3rd-Singularity-Society-BootCamp/tascale/mulmo/output/images/mulmo_script_male-director_simple/13p.png"
+    },
+    {
+      "audioFile": "/Users/kamoshida/work/ss/github/3rd-Singularity-Society-BootCamp/tascale/mulmo/output/audio/mulmo_script_male-director_simple/mulmo_script_male-director_simple_14_f23fb5c553a790f658093022802895e331bda7406dfa5c6434d69a33ca2149b9.mp3",
+      "duration": 3.852,
+      "onComplete": {},
+      "imageFile": "/Users/kamoshida/work/ss/github/3rd-Singularity-Society-BootCamp/tascale/mulmo/output/images/mulmo_script_male-director_simple/14p.png"
+    },
+    {
+      "audioFile": "/Users/kamoshida/work/ss/github/3rd-Singularity-Society-BootCamp/tascale/mulmo/output/audio/mulmo_script_male-director_simple/mulmo_script_male-director_simple_15_d746c2d2552585c2e21036b68b569381402691bad493337e2bffa0e596edc5b2.mp3",
+      "duration": 5.819999999999999,
+      "onComplete": {},
+      "imageFile": "/Users/kamoshida/work/ss/github/3rd-Singularity-Society-BootCamp/tascale/mulmo/output/images/mulmo_script_male-director_simple/15p.png"
+    },
+    {
+      "audioFile": "/Users/kamoshida/work/ss/github/3rd-Singularity-Society-BootCamp/tascale/mulmo/output/audio/mulmo_script_male-director_simple/mulmo_script_male-director_simple_16_88141e8400824e06760210b2f4c8ec4837bdc0e28332847b08394f7c2a658b87.mp3",
+      "duration": 4.26,
+      "onComplete": {},
+      "imageFile": "/Users/kamoshida/work/ss/github/3rd-Singularity-Society-BootCamp/tascale/mulmo/output/images/mulmo_script_male-director_simple/16p.png"
+    },
+    {
+      "audioFile": "/Users/kamoshida/work/ss/github/3rd-Singularity-Society-BootCamp/tascale/mulmo/output/audio/mulmo_script_male-director_simple/mulmo_script_male-director_simple_17_827f39ca2cd3d7a2de36e2e3ad876ddc194ca29674b374033773774cde388254.mp3",
+      "duration": 3.6559999999999997,
+      "onComplete": {},
+      "imageFile": "/Users/kamoshida/work/ss/github/3rd-Singularity-Society-BootCamp/tascale/mulmo/output/images/mulmo_script_male-director_simple/17p.png"
+    },
+    {
+      "audioFile": "https://github.com/receptron/mulmocast-cli/raw/refs/heads/main/assets/audio/silent300.mp3",
+      "duration": 0.339592,
+      "onComplete": {},
+      "imageFile": "https://github.com/receptron/mulmocast-cli/raw/refs/heads/main/assets/images/mulmocast_credit.png"
+    }
+  ],
+  "multiLingual": [
+    {
+      "multiLingualTexts": {}
+    },
+    {
+      "multiLingualTexts": {}
+    },
+    {
+      "multiLingualTexts": {}
+    },
+    {
+      "multiLingualTexts": {}
+    },
+    {
+      "multiLingualTexts": {}
+    },
+    {
+      "multiLingualTexts": {}
+    },
+    {
+      "multiLingualTexts": {}
+    },
+    {
+      "multiLingualTexts": {}
+    },
+    {
+      "multiLingualTexts": {}
+    },
+    {
+      "multiLingualTexts": {}
+    },
+    {
+      "multiLingualTexts": {}
+    },
+    {
+      "multiLingualTexts": {}
+    },
+    {
+      "multiLingualTexts": {}
+    },
+    {
+      "multiLingualTexts": {}
+    },
+    {
+      "multiLingualTexts": {}
+    },
+    {
+      "multiLingualTexts": {}
+    },
+    {
+      "multiLingualTexts": {}
+    },
+    {
+      "multiLingualTexts": {}
+    },
+    {
+      "multiLingualTexts": {}
+    }
+  ],
+  "state": {
+    "inSession": {
+      "audio": false,
+      "image": true,
+      "video": false,
+      "multiLingual": false,
+      "caption": false,
+      "pdf": false
+    },
+    "inBeatSession": {
+      "audio": {},
+      "image": {},
+      "movie": {},
+      "multiLingual": {},
+      "caption": {}
+    }
+  }
+}
